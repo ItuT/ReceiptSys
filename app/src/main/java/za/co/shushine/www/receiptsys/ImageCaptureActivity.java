@@ -67,7 +67,7 @@ public class ImageCaptureActivity extends AppCompatActivity {
     String totalAmount = "";
 
     // define url
-    public static String URL = "http://10.0.0.3:8180/receiptSys/receipts.php";//"http://www.shushine.co.za/receipts.php";//;"<YOUR_API_LINK>";
+    public static String URL = "http://www.shushine.co.za/receiptsys/receipts.php";//;"<YOUR_API_LINK>";"http://10.0.0.3:8180/receiptSys/receipts.php";//
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
