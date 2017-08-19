@@ -1,4 +1,4 @@
-package za.co.shushine.www.receiptsys;
+package za.co.shushine.receiptsys;
 
 import android.app.Service;
 import android.content.Intent;

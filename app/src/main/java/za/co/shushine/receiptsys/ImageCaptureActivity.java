@@ -1,4 +1,4 @@
-package za.co.shushine.www.receiptsys;
+package za.co.shushine.receiptsys;
 
 import android.graphics.Bitmap;
 import android.os.Bundle;
@@ -77,7 +77,7 @@ public class ImageCaptureActivity extends AppCompatActivity {
         setSupportActionBar(toolbar);
 
         this.imageView = (ImageView) this.findViewById(R.id.imageView1);
-        Button button = (Button) this.findViewById(R.id.buttonCapture);
+        Button buttonCapture = (Button) this.findViewById(R.id.buttonCapture);
         Button buttonSend = (Button) findViewById(R.id.buttonSend);
         total = (EditText) findViewById(R.id.editText);
 
@@ -118,7 +118,7 @@ public class ImageCaptureActivity extends AppCompatActivity {
                 }
             }
         } else {
-            button.setOnClickListener(new View.OnClickListener() {
+            buttonCapture.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
                     openCamera();

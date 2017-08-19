@@ -2,9 +2,9 @@ apply plugin: 'com.android.application'
 
 android {
     compileSdkVersion 24
-    buildToolsVersion "24.0.3"
+    buildToolsVersion '25.0.0'
     defaultConfig {
-        applicationId "za.co.shushine.www.receiptsys"
+        applicationId "za.co.shushine.receiptsys"
         minSdkVersion 14
         targetSdkVersion 24
         versionCode 1
